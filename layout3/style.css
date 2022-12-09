@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: /* how you can set up the layout easily*/
+    "orange orange"
+    "nav nav"
+    "purple pink";
+    grid-template-columns: 4fr 1fr; /* shows how much room they will take */
+    grid-template-rows: 2fr 1fr 5fr;
+    height: 96vh;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.nav {
+    grid-area: nav;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.panel {
+    height: 100% /* will be 100% of the area */
+}
+
+.purple {
+    background-color: purple;
+    grid-area: purple;
+}
+
+.pink {
+    background-color: palevioletred;
+    grid-area: pink;
+}
+
+.orange {
+    background-color: orangered;
+    grid-area: orange;
+}
+

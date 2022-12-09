@@ -10,7 +10,6 @@ I learned/expanded my knowledge on the following topics with these exercises:
         - `grid-template-rows`
         - `grid-template-columns`
         - `grid-area`
-- **Flexbox**
 
 The following photos were used as reference:
 
