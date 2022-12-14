@@ -6,9 +6,9 @@
 .container {
     display: grid;
     grid-template-areas: /* how you can set up the layout easily*/
-    "brown blue"
-    "brown blue"
-    "brown blue"
+    "brown1 blue1"
+    "brown2 blue2"
+    "brown3 blue3"
     "bottom bottom";
     grid-template-columns: 1fr 3fr; /* shows how much room they will take place, there are 2 columns and one takes 3x more than the other */
     grid-template-rows: 1fr 1fr 1fr 1fr; /* there are 2 rows, but the second row takes more space than the first row */
@@ -16,6 +16,7 @@
     /* gap: 15px; creates space between elements, but not away from the border */
     border: 1px solid black;
     margin: 10px;
+    gap: 20px;
 }
 
 .nav {
@@ -28,14 +29,34 @@
     height: 100% /* will be 100% of the area */
 }
 
-.brown {
+.brown1 {
     background-color: goldenrod;
-    grid-area: brown;
+    grid-area: brown1;
 }
 
-.blue {
+.brown2 {
+    background-color: goldenrod;
+    grid-area: brown2;
+}
+
+.brown3 {
+    background-color: goldenrod;
+    grid-area: brown3;
+}
+
+.blue1 {
     background-color: aqua;
-    grid-area: blue;
+    grid-area: blue1;
+}
+
+.blue2 {
+    background-color: aqua;
+    grid-area: blue2;
+}
+
+.blue3 {
+    background-color: aqua;
+    grid-area: blue3;
 }
 
 .bottom {
